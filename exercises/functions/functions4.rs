@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-12 15:21:35
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-12 15:21:35
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // functions4.rs
 //
 // This store is having a sale where if the price is an even number, you get 10
@@ -8,14 +17,13 @@
 // Execute `rustlings hint functions4` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn main() {
-    let original_price = 51;
+    let original_price: i32 = 51;
     println!("Your sale price is {}", sale_price(original_price));
 }
 
-fn sale_price(price: i32) -> {
+fn sale_price(price: i32) -> i32 {
     if is_even(price) {
         price - 10
     } else {

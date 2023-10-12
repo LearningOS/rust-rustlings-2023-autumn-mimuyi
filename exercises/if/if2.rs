@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-12 15:27:54
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-12 15:30:41
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // if2.rs
 //
 // Step 1: Make me compile!
@@ -5,13 +14,14 @@
 //
 // Execute `rustlings hint if2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 pub fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
-    } else {
-        1
+    }else if fizzish == "fuzz"{
+        "bar"
+    }else{
+        "baz"
     }
 }
 

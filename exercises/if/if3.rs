@@ -1,18 +1,26 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-12 15:33:38
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-12 15:35:10
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // if3.rs
 //
 // Execute `rustlings hint if3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 pub fn animal_habitat(animal: &str) -> &'static str {
     let identifier = if animal == "crab" {
         1
     } else if animal == "gopher" {
-        2.0
+        2
     } else if animal == "snake" {
         3
     } else {
-        "Unknown"
+        4
     };
 
     // DO NOT CHANGE THIS STATEMENT BELOW
