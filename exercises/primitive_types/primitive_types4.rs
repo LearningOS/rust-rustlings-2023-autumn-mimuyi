@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-13 17:38:15
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-13 17:38:16
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // primitive_types4.rs
 //
 // Get a slice out of Array a where the ??? is so that the test passes.
@@ -5,13 +14,12 @@
 // Execute `rustlings hint primitive_types4` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE
 
 #[test]
 fn slice_out_of_array() {
     let a = [1, 2, 3, 4, 5];
 
-    let nice_slice = ???
+    let nice_slice = &a[1..4];
 
     assert_eq!([2, 3, 4], nice_slice)
 }

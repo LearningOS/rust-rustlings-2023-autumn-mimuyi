@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-12 16:07:58
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-12 16:07:58
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // quiz1.rs
 //
 // This is a quiz for the following sections:
@@ -13,10 +22,15 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(num: i32) -> i32 {
+    if num <= 40 {
+        num * 2
+    }else{
+        num
+    }
+}
 
 // Don't modify this function!
 #[test]
