@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-16 13:14:01
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-16 13:14:01
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // hashmaps2.rs
 //
 // We're collecting different fruits to bake a delicious fruit cake. For this,
@@ -39,6 +48,7 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
         // TODO: Insert new fruits if they are not already present in the
         // basket. Note that you are not allowed to put any type of fruit that's
         // already present!
+        basket.entry(fruit).or_insert(20);
     }
 }
 
