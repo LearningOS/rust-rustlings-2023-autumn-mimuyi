@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-18 16:14:56
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-18 16:14:57
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // traits1.rs
 //
 // Time to implement some traits! Your task is to implement the trait
@@ -7,7 +16,6 @@
 // Execute `rustlings hint traits1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 trait AppendBar {
     fn append_bar(self) -> Self;
@@ -15,6 +23,9 @@ trait AppendBar {
 
 impl AppendBar for String {
     // TODO: Implement `AppendBar` for type `String`.
+    fn append_bar(self) -> Self {
+        self + "Bar"
+    }
 }
 
 fn main() {

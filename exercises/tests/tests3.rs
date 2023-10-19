@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-19 10:45:29
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-19 10:45:30
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // tests3.rs
 //
 // This test isn't testing our function -- make it do that in such a way that
@@ -7,11 +16,11 @@
 // Execute `rustlings hint tests3` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
 pub fn is_even(num: i32) -> bool {
     num % 2 == 0
 }
+
+
 
 #[cfg(test)]
 mod tests {
@@ -19,11 +28,11 @@ mod tests {
 
     #[test]
     fn is_true_when_even() {
-        assert!();
+        assert!(is_even(2));
     }
 
     #[test]
     fn is_false_when_odd() {
-        assert!();
+        assert!(is_even(2));
     }
 }

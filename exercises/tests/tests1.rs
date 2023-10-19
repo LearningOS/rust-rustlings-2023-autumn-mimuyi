@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-19 10:41:16
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-19 10:43:42
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // tests1.rs
 //
 // Tests are important to ensure that your code does what you think it should
@@ -10,12 +19,11 @@
 // Execute `rustlings hint tests1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 #[cfg(test)]
 mod tests {
     #[test]
     fn you_can_assert() {
-        assert!();
+        assert!(1 + 1 == 2);
     }
 }

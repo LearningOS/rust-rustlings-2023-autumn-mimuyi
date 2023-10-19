@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-18 16:17:03
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-18 16:18:44
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // traits2.rs
 //
 // Your task is to implement the trait `AppendBar` for a vector of strings. To
@@ -8,13 +17,19 @@
 //
 // Execute `rustlings hint traits2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 trait AppendBar {
     fn append_bar(self) -> Self;
 }
 
 // TODO: Implement trait `AppendBar` for a vector of strings.
+
+impl AppendBar for Vec<String> {
+    fn append_bar(mut self) -> Self {
+        self.push("Bar".to_string());
+        self
+    }
+}
 
 #[cfg(test)]
 mod tests {
