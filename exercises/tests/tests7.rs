@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Muyi
+ * @Date: 2023-10-19 15:15:03
+ * @LastEditors: Muyi
+ * @LastEditTime: 2023-10-19 15:16:05
+ * @E-mail: Muyi_Mi@aliyun.com
+ */
 // tests7.rs
 //
 // When building packages, some dependencies can neither be imported in
@@ -34,7 +43,6 @@
 // Execute `rustlings hint tests7` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn main() {}
 
